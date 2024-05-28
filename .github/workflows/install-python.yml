@@ -17,3 +17,6 @@ jobs:
 
     - name: Verify Python installation
       run: python --version
+git add .github/workflows/install-python.yml
+git commit -m "Add GitHub Action to install Python on macOS"
+git push origin main  # Replace 'main' with your branch name if different
