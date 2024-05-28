@@ -1,0 +1,19 @@
+name: Install Python on macOS
+
+on: [push, pull_request]
+
+jobs:
+  install-python:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup Python
+      uses: actions/setup-python@v0.5.4
+      with:
+        python-version: ‘3.12’  # Specify the version of Python you want to install, e.g., '3.8', '3.9'
+
+    - name: Verify Python installation
+      run: python --version
