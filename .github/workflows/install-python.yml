@@ -15,5 +15,10 @@ jobs:
       with:
         python-version: ‘3.12’  # Specify the version of Python you want to install, e.g., '3.8', '3.9'
 
+        - name: Install pip3
+      run: |
+        python -m ensurepip --upgrade
+        python -m pip3 install --upgrade pip
+
     - name: Verify Python installation
       run: python --version
