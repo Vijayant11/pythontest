@@ -1,0 +1,125 @@
+2024-05-27T05:27:33.5982447Z ##[group]Run cloudsmith-io/action@master
+2024-05-27T05:27:33.5982988Z with:
+2024-05-27T05:27:33.5983435Z   command: push
+2024-05-27T05:27:33.5983870Z   format: npm
+2024-05-27T05:27:33.5984330Z   owner: bhs
+2024-05-27T05:27:33.5984786Z   repo: automation
+2024-05-27T05:27:33.5985255Z   republish: true
+2024-05-27T05:27:33.5985800Z   file: automation-am_ap_im_mode_hqm_clpc-{{ env.version }}.tgz
+2024-05-27T05:27:33.5986410Z   no-wait-for-sync: true
+2024-05-27T05:27:33.5986899Z   api-version: none
+2024-05-27T05:27:33.5987374Z   cli-version: none
+2024-05-27T05:27:33.5987841Z   skip-install-cli: false
+2024-05-27T05:27:33.5988331Z   wait-interval: none
+2024-05-27T05:27:33.5988799Z   extra: none
+2024-05-27T05:27:33.5989248Z   distro: none
+2024-05-27T05:27:33.5989688Z   release: none
+2024-05-27T05:27:33.5990137Z   name: none
+2024-05-27T05:27:33.5990586Z   scope: none
+2024-05-27T05:27:33.5991301Z   summary: none
+2024-05-27T05:27:33.5991779Z   description: none
+2024-05-27T05:27:33.5992226Z   version: none
+2024-05-27T05:27:33.5992725Z   pom-file: none
+2024-05-27T05:27:33.5993203Z   symbols-file: none
+2024-05-27T05:27:33.5993669Z   tags: none
+2024-05-27T05:27:33.5994101Z env:
+2024-05-27T05:27:33.5994544Z   DOTNET_INSTALL_DIR: ./.dotnet
+2024-05-27T05:27:33.5995202Z   BHS_GHES_TOKEN: ***
+2024-05-27T05:27:33.5995769Z   CLOUDSMITH_BHS_SHARED_PROXY_TOKEN: ***
+2024-05-27T05:27:33.5996333Z   VM_NAME: am_ap_im_mode_hqm_clpc
+2024-05-27T05:27:33.5996909Z   BAIM_SSH_PRIVATE_KEYFILE: id_ed25519_am_em_sw_baim_tcbsd
+2024-05-27T05:27:33.5998820Z   CLOUDSMITH_API_KEY: ***
+2024-05-27T05:27:33.5999770Z   DOTNET_ROOT: /home/azureuser/actions-runner/_work/AM_AP_IM_MoDe_HQM_CLPC/AM_AP_IM_MoDe_HQM_CLPC/.dotnet
+2024-05-27T05:27:33.6000770Z   ANSIBLE_ACTION_PLUGINS: /home/azureuser/.local/lib/python3.10/site-packages/keeper_secrets_manager_ansible/plugins/action_plugins
+2024-05-27T05:27:33.6001833Z   ANSIBLE_LOOKUP_PLUGINS: /home/azureuser/.local/lib/python3.10/site-packages/keeper_secrets_manager_ansible/plugins/lookup_plugins
+2024-05-27T05:27:33.6002598Z   version: 0.1.3
+2024-05-27T05:27:33.6003059Z ##[endgroup]
+2024-05-27T05:27:33.6050374Z ##[group]Run actions/setup-python@v5
+2024-05-27T05:27:33.6050909Z with:
+2024-05-27T05:27:33.6051375Z   check-latest: false
+2024-05-27T05:27:33.6051872Z   update-environment: true
+2024-05-27T05:27:33.6052406Z   allow-prereleases: false
+2024-05-27T05:27:33.6052882Z env:
+2024-05-27T05:27:33.6053348Z   DOTNET_INSTALL_DIR: ./.dotnet
+2024-05-27T05:27:33.6053990Z   BHS_GHES_TOKEN: ***
+2024-05-27T05:27:33.6054565Z   CLOUDSMITH_BHS_SHARED_PROXY_TOKEN: ***
+2024-05-27T05:27:33.6055126Z   VM_NAME: am_ap_im_mode_hqm_clpc
+2024-05-27T05:27:33.6055709Z   BAIM_SSH_PRIVATE_KEYFILE: id_ed25519_am_em_sw_baim_tcbsd
+2024-05-27T05:27:33.6057694Z   CLOUDSMITH_API_KEY: ***
+2024-05-27T05:27:33.6058427Z   DOTNET_ROOT: /home/azureuser/actions-runner/_work/AM_AP_IM_MoDe_HQM_CLPC/AM_AP_IM_MoDe_HQM_CLPC/.dotnet
+2024-05-27T05:27:33.6059438Z   ANSIBLE_ACTION_PLUGINS: /home/azureuser/.local/lib/python3.10/site-packages/keeper_secrets_manager_ansible/plugins/action_plugins
+2024-05-27T05:27:33.6060507Z   ANSIBLE_LOOKUP_PLUGINS: /home/azureuser/.local/lib/python3.10/site-packages/keeper_secrets_manager_ansible/plugins/lookup_plugins
+2024-05-27T05:27:33.6061288Z   version: 0.1.3
+2024-05-27T05:27:33.6061761Z ##[endgroup]
+2024-05-27T05:27:33.7930371Z [warning]Neither 'python-version' nor 'python-version-file' inputs were supplied. Attempting to find '.python-version' file.
+2024-05-27T05:27:33.7932803Z [warning].python-version doesn't exist.
+2024-05-27T05:27:33.7936445Z ##[warning]The `python-version` input is not set.  The version of Python currently in `PATH` will be used.
+2024-05-27T05:27:33.8038815Z ##[group]Run pip install \
+2024-05-27T05:27:33.8039356Z [36;1mpip install \[0m
+2024-05-27T05:27:33.8039858Z [36;1mcloudsmith-api \[0m
+2024-05-27T05:27:33.8040352Z [36;1mcloudsmith-cli \[0m
+2024-05-27T05:27:33.8067454Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-05-27T05:27:33.8068035Z env:
+2024-05-27T05:27:33.8068484Z   DOTNET_INSTALL_DIR: ./.dotnet
+2024-05-27T05:27:33.8069417Z   BHS_GHES_TOKEN: ***
+2024-05-27T05:27:33.8069988Z   CLOUDSMITH_BHS_SHARED_PROXY_TOKEN: ***
+2024-05-27T05:27:33.8070547Z   VM_NAME: am_ap_im_mode_hqm_clpc
+2024-05-27T05:27:33.8071354Z   BAIM_SSH_PRIVATE_KEYFILE: id_ed25519_am_em_sw_baim_tcbsd
+2024-05-27T05:27:33.8073303Z   CLOUDSMITH_API_KEY: ***
+2024-05-27T05:27:33.8074042Z   DOTNET_ROOT: /home/azureuser/actions-runner/_work/AM_AP_IM_MoDe_HQM_CLPC/AM_AP_IM_MoDe_HQM_CLPC/.dotnet
+2024-05-27T05:27:33.8075041Z   ANSIBLE_ACTION_PLUGINS: /home/azureuser/.local/lib/python3.10/site-packages/keeper_secrets_manager_ansible/plugins/action_plugins
+2024-05-27T05:27:33.8076112Z   ANSIBLE_LOOKUP_PLUGINS: /home/azureuser/.local/lib/python3.10/site-packages/keeper_secrets_manager_ansible/plugins/lookup_plugins
+2024-05-27T05:27:33.8076857Z   version: 0.1.3
+2024-05-27T05:27:33.8077327Z ##[endgroup]
+2024-05-27T05:27:34.1737212Z Defaulting to user installation because normal site-packages is not writeable
+2024-05-27T05:27:34.2758103Z Requirement already satisfied: cloudsmith-api in /home/azureuser/.local/lib/python3.10/site-packages (2.0.11)
+2024-05-27T05:27:34.2769425Z Requirement already satisfied: cloudsmith-cli in /home/azureuser/.local/lib/python3.10/site-packages (1.1.1)
+2024-05-27T05:27:34.2805365Z Requirement already satisfied: certifi>=***17.4.17 in /usr/lib/python3/dist-packages (from cloudsmith-api) (***.6.***)
+2024-05-27T05:27:34.2812168Z Requirement already satisfied: six>=1.10 in /usr/lib/python3/dist-packages (from cloudsmith-api) (1.16.0)
+2024-05-27T05:27:34.2818697Z Requirement already satisfied: urllib3>=1.23 in /usr/lib/python3/dist-packages (from cloudsmith-api) (1.26.5)
+2024-05-27T05:27:34.2825678Z Requirement already satisfied: python-dateutil>=2.1 in /home/azureuser/.local/lib/python3.10/site-packages (from cloudsmith-api) (2.9.0.post0)
+2024-05-27T05:27:34.2895321Z Requirement already satisfied: click-configfile>=0.2.3 in /home/azureuser/.local/lib/python3.10/site-packages (from cloudsmith-cli) (0.2.3)
+2024-05-27T05:27:34.2900554Z Requirement already satisfied: click!=8.0.2,>=7.0 in /usr/lib/python3/dist-packages (from cloudsmith-cli) (8.0.3)
+2024-05-27T05:27:34.2907263Z Requirement already satisfied: click-didyoumean>=0.0.3 in /home/azureuser/.local/lib/python3.10/site-packages (from cloudsmith-cli) (0.3.1)
+2024-05-27T05:27:34.2916525Z Requirement already satisfied: click-spinner>=0.1.7 in /home/azureuser/.local/lib/python3.10/site-packages (from cloudsmith-cli) (0.1.10)
+2024-05-27T05:27:34.2922907Z Requirement already satisfied: semver>=2.7.9 in /home/azureuser/.local/lib/python3.10/site-packages (from cloudsmith-cli) (3.0.2)
+2024-05-27T05:27:34.2929332Z Requirement already satisfied: requests>=2.18.4 in /usr/lib/python3/dist-packages (from cloudsmith-cli) (2.25.1)
+2024-05-27T05:27:34.2937351Z Requirement already satisfied: requests-toolbelt>=0.8.0 in /home/azureuser/.local/lib/python3.10/site-packages (from cloudsmith-cli) (1.0.0)
+2024-05-27T05:27:34.3018486Z Requirement already satisfied: configparser>=3.5.0 in /home/azureuser/.local/lib/python3.10/site-packages (from click-configfile>=0.2.3->cloudsmith-cli) (6.0.1)
+2024-05-27T05:27:34.6080833Z ##[group]Run bash /home/azureuser/actions-runner/_work/_actions/cloudsmith-io/action/master/entrypoint.sh \
+2024-05-27T05:27:34.6081829Z [36;1mbash /home/azureuser/actions-runner/_work/_actions/cloudsmith-io/action/master/entrypoint.sh \[0m
+2024-05-27T05:27:34.6082519Z [36;1m-k  \[0m
+2024-05-27T05:27:34.6082983Z [36;1m-K push \[0m
+2024-05-27T05:27:34.6083462Z [36;1m-f npm \[0m
+2024-05-27T05:27:34.6083934Z [36;1m-o bhs \[0m
+2024-05-27T05:27:34.6084411Z [36;1m-r automation \[0m
+2024-05-27T05:27:34.6085019Z [36;1m-F automation-am_ap_im_mode_hqm_clpc-{{ env.version }}.tgz \[0m
+2024-05-27T05:27:34.6085641Z [36;1m-P true \[0m
+2024-05-27T05:27:34.6086118Z [36;1m-w none \[0m
+2024-05-27T05:27:34.6086592Z [36;1m-W true \[0m
+2024-05-27T05:27:34.6087064Z [36;1m-d none \[0m
+2024-05-27T05:27:34.6087518Z [36;1m-R none \[0m
+2024-05-27T05:27:34.6087978Z [36;1m-n none \[0m
+2024-05-27T05:27:34.6088665Z [36;1m-N none \[0m
+2024-05-27T05:27:34.6089135Z [36;1m-S none \[0m
+2024-05-27T05:27:34.6089599Z [36;1m-s "none" \[0m
+2024-05-27T05:27:34.6090091Z [36;1m-t "none" \[0m
+2024-05-27T05:27:34.6090564Z [36;1m-D "none" \[0m
+2024-05-27T05:27:34.6091041Z [36;1m-V none \[0m
+2024-05-27T05:27:34.6091495Z [36;1m-p none \[0m
+2024-05-27T05:27:34.6091956Z [36;1m-- none[0m
+2024-05-27T05:27:34.6120273Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-05-27T05:27:34.6121109Z env:
+2024-05-27T05:27:34.6121861Z   DOTNET_INSTALL_DIR: ./.dotnet
+2024-05-27T05:27:34.6149450Z   BHS_GHES_TOKEN: ***
+2024-05-27T05:27:34.6150071Z   CLOUDSMITH_BHS_SHARED_PROXY_TOKEN: ***
+2024-05-27T05:27:34.6150619Z   VM_NAME: am_ap_im_mode_hqm_clpc
+2024-05-27T05:27:34.6151394Z   BAIM_SSH_PRIVATE_KEYFILE: id_ed25519_am_em_sw_baim_tcbsd
+2024-05-27T05:27:34.6153326Z   CLOUDSMITH_API_KEY: ***
+2024-05-27T05:27:34.6154066Z   DOTNET_ROOT: /home/azureuser/actions-runner/_work/AM_AP_IM_MoDe_HQM_CLPC/AM_AP_IM_MoDe_HQM_CLPC/.dotnet
+2024-05-27T05:27:34.6155100Z   ANSIBLE_ACTION_PLUGINS: /home/azureuser/.local/lib/python3.10/site-packages/keeper_secrets_manager_ansible/plugins/action_plugins
+2024-05-27T05:27:34.6156160Z   ANSIBLE_LOOKUP_PLUGINS: /home/azureuser/.local/lib/python3.10/site-packages/keeper_secrets_manager_ansible/plugins/lookup_plugins
+2024-05-27T05:27:34.6156911Z   version: 0.1.3
+2024-05-27T05:27:34.6157385Z ##[endgroup]
+2024-05-27T05:27:34.6250454Z Error: format is required, but not set (got: none)!
+2024-05-27T05:27:34.6257485Z ##[error]Process completed with exit code 1.
