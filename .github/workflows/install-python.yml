@@ -35,6 +35,6 @@ jobs:
         distro: 'alpine'                                  # Your Distribution  (i.e debian, ubuntu, alpine)
         release: 'any-version'                            # Use "any-version" if your package is compatible with more than one version of alpine linux
         republish: 'true'                                 # Needed if version is not changing
-        file: '20_Push to Cloudsmith.io (5).txt'       # Package filename (including path)
+        file: 'README.md'       # Package filename (including path)
         no-wait-for-sync: 'true'                          # Skip the waiting for package synchronisation (i.e. upload only)
 
