@@ -13,7 +13,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v3
       with:
-        python-version: ‘3.12’  # Replace '3.8' with the version of Python you want to install
+        python-version: ‘3.9’  # Replace '3.8' with the version of Python you want to install
 
     - name: Install pip3
       run: |
