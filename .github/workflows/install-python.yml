@@ -25,7 +25,7 @@ jobs:
         python-version: "3.10"
 
     - name: "Push artifact to package repository"
-      uses: cloudsmith-io/action@v0.5.4
+      uses: cloudsmith-io/action@v0.6.7
       with:
         api-key: 2352304701e88ff1b8985f56614ebc2b9f4e87b2
         command: 'push'
