@@ -11,12 +11,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Setup Python
-      uses: actions/setup-python@v0.6.7.
+      uses: cloudsmith-io/action@v0.5.4
       with:
-        python-version: '3.12'  # Replace '3.8' with the version of Python you want to install
+        python-version: ‘3.12’  # Specify the version of Python you want to install, e.g., '3.8', '3.9'
 
     - name: Verify Python installation
       run: python --version
-git add .github/workflows/install-python.yml
-git commit -m "Add GitHub Action to install Python on macOS"
-git push origin main  # Replace 'main' with your branch name if different
